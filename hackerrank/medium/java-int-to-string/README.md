@@ -1,4 +1,4 @@
-# Java Static Initializer Block
+# Java Int to String
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -21,40 +21,13 @@ $n$ can range between $-100$ to $100$ inclusive.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T17:35:55.399Z  
+**Submitted:** 2026-08-24T17:39:45.724Z  
 
 ```java
-import java.io.*;
-import java.util.*;
 
-public class Solution {
+String s = String.valueOf(n);
+   //Write your code here
 
-    
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-        
-        static int  B;
-        static int H;
-        static boolean flag = false;
-        
-        static {
-            Scanner sc = new Scanner(System.in);
-                 B = sc.nextInt();
-                 H = sc.nextInt();
-                 sc.close();
-                 if(B>0 && H>0){
-                    flag = true;
-                  }  else {
-                        System.out.println("java.lang.Exception: Breadth and height must be positive");
-                    }
-                 }
-                 public static void main(String[] args){
-                    if(flag){
-                        int area = B*H;
-                        System.out.print(area);
-                    }
-                 }
-            }
-       
 
 ```
 
