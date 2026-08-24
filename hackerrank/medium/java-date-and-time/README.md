@@ -1,4 +1,4 @@
-# Java Int to String
+# Java Date and Time
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -50,12 +50,31 @@ A single line of input containing the space separated month, day and year, respe
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T17:39:51.389Z  
+**Submitted:** 2026-08-24T17:44:36.134Z  
 
 ```java
 
-String s = String.valueOf(n);
-   //Write your code here
+import java.time.LocalDate;
+class Result {
+
+    /*
+     * Complete the 'findDay' function below.
+     *
+     * The function is expected to return a STRING.
+     * The function accepts following parameters:
+     *  1. INTEGER month
+     *  2. INTEGER day
+     *  3. INTEGER year
+     */
+
+    public static String findDay(int month, int day, int year) {
+  LocalDate date = LocalDate.of(year, month, day);
+        
+        // 2. Extract the Day of Week and convert it to a string (it returns uppercase by default)
+        return date.getDayOfWeek().name();
+    }
+
+}
 
 
 ```
