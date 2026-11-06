@@ -4,34 +4,16 @@
 
 ## Problem
 
-### Using the Addtion Operator
-
-What will be the output of the following Java program?
-
-```
-class Codechef {
-    public static void main(String[] args) {
-      
-        int num1 = 5;
-        int num2 = 10;
-        int num3 = 15;
-        int sum; 
-        sum = num1 + num2 + num3;
-
-        System.out.println(sum);
-    }
-}
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-06T09:15:47.292Z  
+**Submitted:** 2026-11-06T09:15:35.788Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
         // Declare integer variables
