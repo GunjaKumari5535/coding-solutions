@@ -29,7 +29,7 @@ Negative
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-06T04:26:55.821Z  
+**Submitted:** 2026-11-06T04:27:09.833Z  
 
 ```java
 import java.util.Scanner;
