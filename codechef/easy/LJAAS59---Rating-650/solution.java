@@ -33,7 +33,7 @@ public class Main
         num = scanner.nextInt(); // input third number
         // Check third number
         if(num >0){
-            System.out.println("Postive");
+            System.out.println("Positive");
             
         }
         else if(num<0){
