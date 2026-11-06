@@ -12,10 +12,10 @@ Scanner sc = new Scanner(System.in);
  if(marks1 >90){
      System.out.println("A");
  }
-     else if(marks1 >70 && marks1 <=90){
+     else if(marks1 >70 && marks1 <90){
          System.out.println("B");
      }
-     else if(marks1 >=40 && marks1<=70){
+     else if(marks1 >=40 && marks1<70){
          System.out.println("C");
          
      }
@@ -29,10 +29,10 @@ Scanner sc = new Scanner(System.in);
           System.out.println("A");
           
       }
-      else if(m2>70 && m2<=90){
+      else if(m2>70 && m2<90){
           System.out.println("B");
       }
-      else if(m2>=40 && m2<=70){
+      else if(m2>=40 && m2<70){
           System.out.println("C");
       }
       else {
@@ -43,10 +43,10 @@ Scanner sc = new Scanner(System.in);
        if(m3 >90){
            System.out.println("A");
        }
-       else if(m3 >70 && m3 <=90){
+       else if(m3 >70 && m3 <90){
            System.out.println("B");
        }
-       else if(m3 >=40 && m3<=70){
+       else if(m3 >=40 && m3<70){
            System.out.println("C");
        }
        else {
