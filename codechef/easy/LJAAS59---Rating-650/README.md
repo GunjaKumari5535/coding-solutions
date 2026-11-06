@@ -29,7 +29,7 @@ Negative
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-06T04:27:09.833Z  
+**Submitted:** 2026-11-06T04:27:40.923Z  
 
 ```java
 import java.util.Scanner;
@@ -67,7 +67,7 @@ public class Main
         num = scanner.nextInt(); // input third number
         // Check third number
         if(num >0){
-            System.out.println("Postive");
+            System.out.println("Positive");
             
         }
         else if(num<0){
