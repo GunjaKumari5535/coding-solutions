@@ -4,16 +4,46 @@
 
 ## Problem
 
-_Description not available._
+### Javadoc Comment
+
+Which syntax is used to write a Javadoc comment in Java?
+
+ **Option 1** :
+
+```
+// This is a Javadoc comment
+
+```
+
+ **Option 2** :
+
+```
+/ *This is a Javadoc comment* /
+
+```
+
+ **Option 3** :
+
+```
+/** This is a Javadoc comment */
+
+```
+
+ **Option 4** :
+
+```
+<!—This is a Javadoc comment —>
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-06T05:00:53.503Z  
+**Submitted:** 2026-11-06T05:01:36.132Z  
 
-```java
+```cpp
 class Codechef {
     public static void main(String[] args) {
         // Start of user authentication process
