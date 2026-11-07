@@ -4,29 +4,16 @@
 
 ## Problem
 
-### Missing part in the Code
-
-Fill in the blank with the correct operator to complete the Java program.
-
-```
-class Codechef {
-    public static void main(String[] args) {
-        int bottles = 10;
-        System.out.println(__);
-        System.out.println(bottles);
-    }
-}
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-07T04:58:33.154Z  
+**Submitted:** 2026-11-07T04:58:09.927Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
         int remainingAttempts = 3; // Initial attempts count
